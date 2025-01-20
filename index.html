@@ -3,23 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Portfólio</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Portfólio - Priscyla Martins</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #DCDCDC; /* Cor de fundo */
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #FFCBDB; /* Cor para detalhes */
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #FFCBDB;
+            padding: 10px;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+        section {
+            padding: 50px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 8px;
+        }
+        footer {
+            background-color: #FFCBDB;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Bem-vindo ao Meu Portfólio!</h1>
+        <h1>Bem-vindo ao meu Portfólio</h1>
     </header>
+    
+    <nav>
+        <a href="#apresentacao">Apresentação</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#curriculo">Currículo</a>
+    </nav>
 
-    <section>
-        <h2>Sobre Mim</h2>
-        <p>Olá, eu sou Cyla, uma estudante de TI apaixonada por desenvolvimento web.</p>
+    <section id="apresentacao">
+        <h2>Apresentação</h2>
+        <p>Texto sobre você e sua trajetória.</p>
+    </section>
+
+    <section id="projetos">
+        <h2>Projetos</h2>
+        <p>Detalhes dos projetos que você está trabalhando ou já trabalhou.</p>
+    </section>
+
+    <section id="curriculo">
+        <h2>Currículo</h2>
+        <p>Informações sobre cursos, experiências e outras qualificações.</p>
     </section>
 
     <footer>
-        <p>&copy; 2025 Cyla Martins. Todos os direitos reservados.</p>
+        <p>© 2025 Priscyla Martins - Todos os direitos reservados.</p>
     </footer>
-
-    <script src="script.js"></script>
 </body>
 </html>
+
